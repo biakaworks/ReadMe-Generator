@@ -19,16 +19,6 @@ inquirer
       message: "Please give a short description of your Project",
     },
     {
-      type: "input",
-      name: "installation",
-      message: "How do you install your Project?",
-    },
-    {
-      type: "input",
-      name: "usage",
-      message: "Please describe how to use your Project.",
-    },
-    {
         type: "list",
         name: "license",
         message: "Please pick the correct license for your Project",
@@ -43,12 +33,22 @@ inquirer
       },
     {
       type: "input",
+      name: "installation",
+      message: "How do you install your Project?",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "Please describe how to use your Project.",
+    },
+    {
+      type: "input",
       name: "contributors",
       message: "Who are the contributers in this Project?",
     },
     {
         type: "input",
-        name: "test",
+        name: "tests",
         message: "Is there a Test in this Project?",
       },
     {
@@ -72,38 +72,36 @@ inquirer
 ## Description
 📖 ${data.description}
 
+## License
+![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+<br />
+This application is covered by the ${data.license} license. 
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Email](#email)
-- [GitHub](#gitHub)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Email](#email)
+- [GitHub](#gitHub)
 - [Questions](#questions)
 
 ## Installation
 💿 ${data.installation}
 
-## Email
+## Contributing
+🤝 ${data.contributors}
+
+## Tests
+🔬 ${data.tests}
+
+## Email me if you have any questions about ${data.projectTitle} at:
 📧 ${data.email}
 
 ## Github
-📧 ${data.gitHub}
+🐙+🐱 Connect on GitHub at: [${data.gitHub}](https://github.com/${data.gitHub})
 
-This project solves the security concern of weak passwords. Given that a user needs a new, secured password, they will be promted to determine certain character types required for the password and then a new random password will be generated.
-
-![Image of Version](https://img.shields.io/badge/ReadMeGen-v1.0-green)
-
-The new password implements greater security to sensitive data and saves time for users.
-
-The criteria that the password is able to meet are: <br>
-
-1) the password is between 8 - 128 characters long, AND <br>
-
-2) the password must have at least one of the following character types: <br>
-    *lowercase characters <br>
-    *uppercasse characters <br>
-    *special characters <br>`;
+`;
 
     fs.writeFile(filename, template, (err) =>
       err
