@@ -1,7 +1,7 @@
-<h1 align="center">yolo</h1>
+<h1 align="center">asdf</h1>
 
 ## Description
-📖 yolo
+📖 asdf
 
 ## Table of Contents
 - [Description](#description)
@@ -13,13 +13,13 @@
 - [Questions](#questions)
 
 ## Installation
-💿 yolo
+💿 asdf
 
 ## Email
-📧 yolo
+📧 asdf
 
 ## Github
-📧 yolo
+📧 asdf
 
 This project solves the security concern of weak passwords. Given that a user needs a new, secured password, they will be promted to determine certain character types required for the password and then a new random password will be generated.
 

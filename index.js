@@ -29,24 +29,37 @@ inquirer
       message: "Please describe how to use your Project.",
     },
     {
+        type: "list",
+        name: "license",
+        message: "Please pick the correct license for your Project",
+        choices: [
+            "Apache",
+            "Boost",
+            "Creative Commons",
+            "GNU",
+            "Mozilla",
+            "Unlicense",
+        ]
+      },
+    {
       type: "input",
       name: "contributors",
       message: "Who are the contributers in this Project?",
     },
     {
-      type: "input",
-      name: "installation",
-      message: "What is your ReadMe's Title?",
-    },
+        type: "input",
+        name: "test",
+        message: "Is there a Test in this Project?",
+      },
     {
       type: "input",
       name: "email",
-      message: "Please enter your contact email",
+      message: "Please enter your contact email:",
     },
     {
       type: "input",
       name: "gitHub",
-      message: "Please add your GitHub username",
+      message: "Please add your GitHub username:",
     },
   ])
   .then((data) => {
