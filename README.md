@@ -1,37 +1,43 @@
-# ReadMe-Generator
-A Read Me generator for developers to use
 
-# 09 Node.js Homework: Professional README Generator
-
-## Your Task
-
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
-
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
-
-
-## User Story
-
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a command-line application that accepts user input
+<h1 align="center">ReadMe-Generator Using Node.js</h1>
+   
+  
+   <p align="center">
+       <img src="https://img.shields.io/github/languages/top/biakaworks/ReadMe-Generator"  />
+       <img src="https://img.shields.io/github/last-commit/biakaworks/ReaDMe-Generator" >
+       <a href="https://twitter.com/biakaz">
+           <img alt="Twitter: biakaz" src="https://img.shields.io/twitter/follow/biakaz.svg?style=social" target="_blank" />
+       </a>
+   </p>
+     
+   <p align="center">
+       <img src="https://img.shields.io/badge/Javascript-blue" />
+       <img src="https://img.shields.io/badge/-node.js-green" />
+       <img src="https://img.shields.io/badge/-inquirer-orange" >
+       <img src="https://img.shields.io/badge/-iOS-lightgrey" />
+       <img src="https://img.shields.io/badge/-json-orange" />
+   </p>
+      
+   ## Description
+     
+   🔍  <br/>
+   An application that uses Node.js and Inquirer, that allows the user to create fast, simple and clean README.md file to use for their projects. You can see an example here in the [directory](./readgenerator) called Read Generator.
+   
+   <br/>
+     
+   🎥 <br/>
+   Watch the sample video [here](https://youtu.be/5bQo0lkAAzM)  
+     
+   ## User Story
+     
+   ```
+   I want an easier way to get a Readme.md for my project. This way I can quickly make them for my projects
+   ```
+     
+   ## Acceptance Criteria
+     
+   ``` 
+   GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 WHEN I enter my project title
@@ -46,69 +52,32 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
-```
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+   ```
+     
+   ## Table of Contents
+   - [Description](#description)
+   - [User Story](#user-story)
+   - [Acceptance Criteria](#acceptance-criteria)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contributer](#contributer)
+   - [Contact](#contact-me)
+   
+   ## Installation
+   💿 
+   Use the following: <br/>
+     1. `npm init` <br/>
+     2. `npm install inquirer`
+     
+   ## Usage
+   🖥  
+     
+   Run the node index.js and when you answer all the questions, your new README.MD with your project title will be generated
+     
+   `node index.js`
+   
+   ## Contributer
+   🐙🐱 [Biaka Zaidarhzauva](https://github.com/biakaworks)
+   
+   ## Contact Me
+   ✉️ Email me if you have questions[Biaka@biakaworks.com](mailto:biaka@biakaworks.com)

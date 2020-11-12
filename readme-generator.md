@@ -1,7 +1,7 @@
-<h1 align="center">Test Test Test</h1>
+<h1 align="center">ReadMe-Generator</h1>
 
 ## Description
-📖 Test Test Test
+📖 A Node Application that allows to make Readme.md files fast for your project
 
 ## License
 ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
@@ -18,17 +18,17 @@ This application is covered by the Mozilla license.
 - [Questions](#questions)
 
 ## Installation
-💿 Test Test Test
+💿 use node and run node index.js and answer a few questions
 
 ## Contributing
-🤝 Test Test Test
+🤝 Myself (biaka) and many sources on the internet
 
 ## Tests
-🔬 Test Test Test
+🔬 No there is not!
 
-## Email me if you have any questions about Test Test Test at:
+## Email me if you have any questions about ReadMe-Generator at:
 📧 biaka@biakaworks.com
 
 ## Github
-:octocat: Connect on GitHub at: [biakaworks](https://github.com/biakaworks)
+🐙+🐱 Connect on GitHub at: [biakaworks](https://github.com/biakaworks)
 
